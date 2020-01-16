@@ -94,6 +94,8 @@ input[type="radio"].visually-hidden {
 
 .index-header .container {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -184,6 +186,8 @@ input[type="radio"].visually-hidden {
 }
 
 .achievements {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0;
     padding: 20px 0;
@@ -222,6 +226,8 @@ input[type="radio"].visually-hidden {
 }
 
 .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -324,7 +330,8 @@ input[type="radio"].visually-hidden {
     text-align: center;
     background-color: #a7c93d;
     border-radius: 50%;
-    box-shadow: 0 0 0 7px #e8edc9;
+    -webkit-box-shadow: 0 0 0 7px #e8edc9;
+            box-shadow: 0 0 0 7px #e8edc9;
 }
 
 .operating-principle__item--first::before {
@@ -344,8 +351,13 @@ input[type="radio"].visually-hidden {
 
 .sale {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 0;
     margin-top: 25px;
     width: 270px;
@@ -403,13 +415,20 @@ input[type="radio"].visually-hidden {
 }
 
 .sale__price-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .sale__price {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 128px;
     margin: 0;
 
@@ -619,8 +638,12 @@ input[type="radio"].visually-hidden {
 }
 
 .effects {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 0;
     margin-top: 40px;
     padding: 0;
@@ -655,8 +678,12 @@ input[type="radio"].visually-hidden {
 }
 
 .effects__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 
     width: 300px;
 }
@@ -736,8 +763,12 @@ input[type="radio"].visually-hidden {
 }
 
 .misconceptions {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 0;
     margin-top: 80px;
     padding: 0;
@@ -921,8 +952,12 @@ input[type="radio"].visually-hidden {
 }
 
 .effect {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 0;
     padding: 0;
 
@@ -954,7 +989,11 @@ input[type="radio"].visually-hidden {
     border-top-color: transparent;
     border-left-color: transparent;
 
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+        -ms-transform: rotate(45deg);
+
+            transform: rotate(45deg);
 }
 
 .effect__item::after{
@@ -1022,6 +1061,10 @@ input[type="radio"].visually-hidden {
     padding: 4px;
     width: 870px;
 
+    background: -webkit-gradient(linear, left top, right top, from(#f64d01), to(#62bd1f));
+
+    background: -o-linear-gradient(left, #f64d01, #62bd1f);
+
     background: linear-gradient(to right, #f64d01, #62bd1f);
     border-radius: 12px;
 }
@@ -1060,8 +1103,13 @@ input[type="radio"].visually-hidden {
 }
 
 .apply {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 0;
     margin-top: 75px;
     margin-left: 600px;
@@ -1094,7 +1142,10 @@ input[type="radio"].visually-hidden {
 
     background-color: #ffffff;
     border-radius: 50%;
-    box-shadow: 
+    -webkit-box-shadow: 
+        0 0 0 8px #f64d01,
+        0 0 0 16px #ebe4d9;
+            box-shadow: 
         0 0 0 8px #f64d01,
         0 0 0 16px #ebe4d9;
 }
