@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <link rel="preload" href="fonts/roboto-v20-cyrillic_latin-regular.woff2" as="font">
     <link rel="preload" href="fonts/roboto-v20-cyrillic_latin-italic.woff2" as="font">
     <link rel="preload" href="fonts/roboto-v20-cyrillic_latin-700.woff2" as="font">
@@ -14,19 +14,19 @@
   <body class="index-page">
     <header class="index-header">
       <div class="container">
-        <h1 class="index-header__header">Микоцин</h1>
+        <div class="index-header__header-container">
+          <h1 class="index-header__header">Микоцин</h1>
+          <img class="index-header__mikocin-tablet" src="img/mikocin.png" alt="Микоцин" width="378">
+          <span class="index-header__price-orange">299</span>
+          <img class="index-header__mikocin-cream" src="img/mikocin-green.png" alt="Микоцин мазь" width="698">
+          <span class="index-header__price-green">299</span>
+        </div>
         <div class="index-header__container">
           <ul class="achievements">
             <li class="achievements__item achievements__item--first">№1 Для избавления от любого типа грибка</li>
             <li class="achievements__item achievements__item--second">Рекомендован дерматологами</li>
             <li class="achievements__item achievements__item--third">13000+ довольных клиентов за 2018 год</li>
           </ul>
-
-          <img class="index-header__mikocin-tablet" src="img/mikocin.png" alt="Микоцин" width="378">
-          <span class="index-header__price-orange">299</span>
-          <span class="index-header__price-green">299</span>
-          <img class="index-header__mikocin-cream" src="img/mikocin-green.png" alt="Микоцин мазь" width="698">
-
           <div class="header-container">
             <div class="container-list">
               <h2 class="operating-principle">Комплексное избавление<br>от грибка — <br><span class="operating-principle__small"><span class="operating__orange">изнутри</span> и <span class="operating__green">снаружи</span></span></h2>
@@ -36,7 +36,6 @@
                 <li class="operating-principle__item operating-principle__item--third"><span class="operating-principle__gel">Гель</span> Микоцин <strong>восстанавливает кожу</strong> и создает на ней <strong>защитный барьер</strong></li>
               </ul>
             </div>
-
             <article class="sale">
               <p class="sale__delyvery"><span class="visually-hidden">доставка</span>Бесплатно</p>
 
@@ -83,14 +82,14 @@
             </li>
             <li class="effects__item effects__item--second">
               <div class="effects__container">
-                <img src="img/infection-02.png" alt="аллергия" class="effects__image" width="170" height="170">
+                <img src="img/infection-02.png" alt="ампутация" class="effects__image" width="170" height="170">
                 <h3 class="effects__outcome">Потере ногтя и ампутации пальца</h3>
               </div>
               <p class="effects-description">После полного разрушения ногтя грибок распространяется на палец, что приводит к его ампутации </p>
             </li>
             <li class="effects__item effects__item--third">
               <div class="effects__container">
-                <img src="img/infection-03.png" alt="аллергия" class="effects__image" width="170" height="170">
+                <img src="img/infection-03.png" alt="тяжелое состояние" class="effects__image" width="170" height="170">
                 <h3 class="effects__outcome">Тяжелому поражению внутренних органов</h3>
               </div>
               <p class="effects-description">Может привести к повреждениям мозга, слепоте, отказу печени, почек и сердца</p>
